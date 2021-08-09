@@ -1,0 +1,94 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.row{
+   display: flex;   
+   flex-wrap: wrap;
+   max-width: 70%;
+   margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background: white;
+    padding : 70px;
+}
+
+.footer-col{
+    width: 20%;
+    padding : 0 15px
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(100, 86, 223);
+    text-transform: capitalize;
+    margin-bottom : 10px;
+}
+
+
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: darkgrey;
+    text-decoration : none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:black;
+    padding-left: 4px;
+}
+
+.fa-twitter{
+    color: rgb(24, 145, 185);
+}
+
+.fa-linkedin-in{
+    color: blue;
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-hackerrank{
+    color: green;
+}
+
+.fa-share-alt{
+    color: indigo;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px) {
+
+    .footer-col{
+        width: 50%;
+        margin-bottom: 20px;
+    
+    }
+}
+@media(max-width: 574px) {
+
+    .footer-col{
+        width: 100%;
+    }
+
+}
